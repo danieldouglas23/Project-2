@@ -1,1 +1,209 @@
+body {
+    width: 100%;
+}
+.html {
+    scroll-behavior: smooth;
+    width: 100%;
 
+  }
+.container-fluid {
+    width: 100%;
+
+}
+.imageContainer { 
+    width: 100%;
+    background: url(./images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+  }
+
+.imageContainer p {
+    position: relative;
+    top: 300px;
+    font-size: 15px;
+    text-align:center;
+    color: white;
+    width: 100%;
+}
+
+.imageContainer .adventureButton{
+    position: relative;
+    top: 100px;
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+    padding: 8px;
+    margin-left: 95px;
+}
+.navbar ul li{
+    color:white;
+    font-size: 15px;
+    margin: 10px;
+}
+#spaceDiv{
+    height: 150px;
+}
+/* Add a black background color to the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: center;
+    padding: 15px;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 17px;
+    width: 100%;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: center;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 2px;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+#inputContainer { 
+    background: url(./images/food-450673_1920.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+  }
+  #userContainer { 
+    background: url(./images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+  }
+  #userPhotoContainer { 
+    background: url(./images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+  }
+  #profinputContainer { 
+    background: url(./images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+  }
+.form-group{
+    font-size: 24px;
+}
+#userInputSubmit{
+    background-color: rgb(35, 56, 34) 
+}
+#categoryContainer {
+    height: 700px;
+}
+/* Social icons */
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    position: center;
+
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* Instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+/* Posting */
+#postingCard {
+    position: sticky;
+    right: 5%;
+    top: 50%;
+    width: 90%;
+}
+#postingCardBody .postingPrice small{
+    font-size: 12px;
+    margin-bottom: 0rem;
+}
+#postingCardBody p {
+    margin-bottom: 0rem;
+}
+
+#reqToBookBtn{
+    width: 100%;
+    background-color: rgb(161, 34, 55);
+}
+p {
+    text-align: center;
+    
+}
