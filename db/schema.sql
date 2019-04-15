@@ -11,8 +11,6 @@ CREATE TABLE `recipes` (
   `preparation` text COLLATE utf8_unicode_ci NOT NULL,
   `social_rank` int(11) NOT NULL,
   `image_link` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `hands_on_time` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `total_time` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `servings` int(11) NOT NULL,
   `createdAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
