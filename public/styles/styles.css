@@ -12,7 +12,7 @@ body {
 }
 .imageContainer { 
     width: 100%;
-    background: url(./images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
+    background: url(../images/headertacos.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -107,7 +107,7 @@ body {
   }
 
 #inputContainer { 
-    background: url(./images/food-450673_1920.jpg) no-repeat center center fixed; 
+    background: url(../images/tacosprepared.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -115,7 +115,7 @@ body {
     height: 600px;
   }
   #userContainer { 
-    background: url(./images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
+    background: url(../images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -123,7 +123,7 @@ body {
     height: 600px;
   }
   #userPhotoContainer { 
-    background: url(./images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
+    background: url(../images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -131,7 +131,7 @@ body {
     height: 600px;
   }
   #profinputContainer { 
-    background: url(./images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
+    background: url(../images/tacos-3409675_1920.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
