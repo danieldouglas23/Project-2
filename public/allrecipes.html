@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
     <!-- css link -->
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <title>Home</title>
 </head>
 
@@ -151,17 +153,59 @@
 
     <!-- space div -->
     <div id="inputContainer">
-        <div class="row">
+
+        <div class="container">
+            <div class="row top-30">
+                <div class="col-md-2 col-sm-2">
+                    <a class="btn btn-default" href="/blog">Go to Blog</a>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <a class="btn btn-default" href="/cms">New Post</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="author-container">
+                        <h1>Authors</h1>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th># of Posts</th>
+                                    <th>See Author's Posts</th>
+                                    <th>New Post</th>
+                                    <th>Delete Author</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="form-row">
+                                    <form id="author-form">
+                                        <td colspan="4">
+                                            <input placeholder="Enter a name" id="author-name" type="text" />
+                                        </td>
+                                        <td><button type="submit" class="btn btn-success">Create Author</button>
+                                        </td>
+                                    </form>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </d>
+
+            <!-- <div class="row">
             <div id="spaceDiv" class=col-md-12></div>
         </div>
-        <div class="row">
+        <div class="row"> -->
+
 
             <!-- <div class="col-md-6">
-                </div> -->
+            </div>
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <form class="userInputForm">
+                        <form class="Recipe">
                             <h2>All Recipes</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                 Ipsum has been the industry's standard dummy text ever since the 1500s, when an
@@ -173,89 +217,70 @@
 
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <form class="userInputForm">
-                            <h2>User Recipes</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book.
-                                It has survived not only five centuries, but also the leap into electronic
-                                typesetting,
-                                remaining essentially unchanged. </p>
+    </div>
 
 
-                        </form>
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="footer">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="#" class="fa fa-facebook"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="fa fa-twitter"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="fa fa-instagram"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <footer id="myFooter">
+            <div class="container myColsrow">
+                <div class="row">
+                    <div class="col-sm-3 myCols">
+                        <h5>Get started</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">Downloads</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 myCols">
+                        <h5>About us</h5>
+                        <ul>
+                            <li><a href="#">Company Information</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Reviews</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 myCols">
+                        <h5>Support</h5>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help desk</a></li>
+                            <li><a href="#">Forums</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 myCols">
+                        <h5>Legal</h5>
+                        <ul>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    </div>
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="footer">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a href="#" class="fa fa-facebook"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="fa fa-twitter"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="fa fa-instagram"></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <footer id="myFooter">
-        <div class="container myColsrow">
-            <div class="row">
-                <div class="col-sm-3 myCols">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3 myCols">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3 myCols">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3 myCols">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
+            <div class="footer-copyright">
+                <p>© 2016 Copyright Text </p>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <p>© 2016 Copyright Text </p>
-        </div>
-    </footer>
+        </footer>
+        <!-- Custom Script -->
+        <script src="js/author.js" type="text/javascript"></script>
+
 </body>
 
 <!-- <-- bootstrap jquery scripts -->
@@ -268,6 +293,7 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 
-<script src="./js/app.js"></script>
+<script src="/js/app.js"></script>
+
 
 </html>
