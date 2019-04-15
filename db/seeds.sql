@@ -52,15 +52,4 @@ Test Kitchen Tip: To make your own guajillo chile powder, finely grind about 6 l
         'https://assets.epicurious.com/photos/5b747e86fb8a0329e97a82bb/6:4/w_620%2Ch_413/tacos-al-pasto-recipe-081518.jpg',
         35,
         1440,
-        6-8;
-
-
-
-
-
-
-
-
-
-
-
+        6);
