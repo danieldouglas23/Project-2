@@ -7,11 +7,18 @@ module.exports = function(sequelize, DataTypes) {
           len: [1]
         }
       },
-      body: {
+      ingredients: {
         type: DataTypes.TEXT,
         allowNull: false,
         len: [1]
-      }
+      },
+      preparation: {
+        type: DataTypes.STRING,
+        allowNull: false
+      },
+      social_rank: DataTypes.STRING, 
+      image_link: DataTypes.STRING,
+      servings: DataTypes.INTEGER
     });
   
     Recipe.associate = function(models) {
