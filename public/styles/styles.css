@@ -205,10 +205,28 @@ body {
 }
 p {
     text-align: center;
-    
+    color: white;
 }
 
 h2 {
   color: white;
-  
+text-align: center;
+
+}
+
+label {
+  color: white;
+
+}
+
+#footer {
+  background-color: black
+}
+
+.containermyColsrow {
+
+}
+
+h5 {
+  color: white;
 }
