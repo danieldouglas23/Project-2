@@ -13,7 +13,7 @@ var db = require("../models");
 module.exports = function(app) {
 
   // GET route for getting all of the recipes
-  app.get("/api/recipes", function(req, res) {
+  app.get("/api/recipes", function (req, res) {
     var query = {};
     if (req.query.author_id) {
       query.AuthorId = req.query.author_id;
