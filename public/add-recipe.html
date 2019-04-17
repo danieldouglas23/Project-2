@@ -13,24 +13,30 @@
 
 <body>
 
-		<nav class="navbar navbar-dark bg-black">
-			<a id="logoImg" class="navbar-brand" href="./index.html">
-				<img src="./images/taco-3643599_1920.png" width="35" height="35" alt="logo">
-			</a>
-			<div id="navBar" class="navbar-nav">
+	<nav class="navbar navbar-dark bg-black">
+		<a id="logoImg" class="navbar-brand" href="./index.html">
+			<img src="./images/taco-3643599_1920.png" width="35" height="35" alt="logo">
+		</a>
+		<div id="navBar" class="navbar-nav">
 
-				<!-- lender button -->
-				<ul id="navBar" class="nav justify-content-end">
-					<li class="nav-item nav-link">
-						<a class="nav-item nav-link" href="/all-recipes">Go to Recipes</a>
+			<!-- lender button -->
+			<ul id="navBar" class="nav justify-content-end">
+				<li class="nav-item nav-link">
+					<a class="nav-item nav-link" href="/all-recipes">Go to Recipes</a>
+				</li>
+				<li class="nav-item nav-link">
+					<a class="nav-item nav-link" href="/author-manager">Manage Authors</a>
+				</li>
+				<li class="nav-item nav-link">
+						<a class="nav-item nav-link" href="/author-manager">Become An Author</a>
 					</li>
-					<li class="nav-item nav-link">
-						<a class="nav-item nav-link" href="/author-manager">Manage Authors</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	
+			</ul>
+		</div>
+	</nav>
+
+
+
+
 
 
 	<div class="author-container-2">
@@ -46,6 +52,9 @@
 			<div class="col-md-6 offset-md-3">
 				<form id="add-recipe">
 					<div class="form-group">
+							<p>Not A Registered Author?  <a href="/author-manager">  Click Here </a> <br> <br> </p>
+
+
 						<label for="title">Title:</label>
 						<input placeholder="Recipe Title" type="text" class="form-control" id="title">
 						<br />
