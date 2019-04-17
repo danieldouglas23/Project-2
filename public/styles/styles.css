@@ -20,6 +20,10 @@ body {
     height: 500px;
   }
 
+  .imageContainerAll {
+    background-color: black;
+  }
+
 .imageContainer p {
     position: relative;
     top: 300px;
