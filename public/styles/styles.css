@@ -236,6 +236,8 @@ h5 {
 
 .containerhidden {
   background-color: black;
+  background: url(../images/headertacos.jpg) no-repeat center center fixed; 
+
 }
 
 .addr {
