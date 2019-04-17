@@ -77,28 +77,50 @@ $(document).ready(function() {
       var editBtn = $("<button>");
       editBtn.text("EDIT");
       editBtn.addClass("edit btn btn-info");
-      var newRecipeTitle = $("<h2>");
+      var newRecipeTitle = $("<h5>");
       var newRecipeDate = $("<small>");
-      var newRecipeAuthor = $("<h5>");
-      newRecipeAuthor.text("Written by: " + recipe.Author.name);
+      var newRecipeAuthor = $("<h6>");
+      newRecipeAuthor.text("Recipe submitted by: " + recipe.Author.name);
       newRecipeAuthor.css({
         float: "right",
         color: "blue",
         "margin-top":
         "-10px"
       });
+      newRecipeTitle.css({
+        color: "black"
+      });
       var newRecipeCardBody = $("<div>");
       newRecipeCardBody.addClass("card-body");
-      var newRecipeBody = $("<p>");
+      var newRecipeIngredients = $("<h9>");
+      var newRecipeImage = $("<img>");
+      var spaceBreak = $("<br><br>");
+      var spaceBreak2 = $("<br><br>");
+      var spaceBreak3 = $("<br><br>");
+      var newRecipePreparation = $("<h9>");
+      var newRecipeServings = $("<h9>");
       newRecipeTitle.text(recipe.title + " ");
-      newRecipeBody.text(recipe.body);
+      newRecipeImage.attr("src", recipe.image_link);
+      newRecipeImage.css({
+        width: "300px",
+        height: "200px"
+      });
+      newRecipeIngredients.text("Ingredients: " + recipe.ingredients);
+      newRecipePreparation.text("Preparation: " + recipe.preparation);
+      newRecipeServings.text("Servings: " + recipe.servings);
       newRecipeDate.text(formattedDate);
       newRecipeTitle.append(newRecipeDate);
       newRecipeCardHeading.append(deleteBtn);
       newRecipeCardHeading.append(editBtn);
       newRecipeCardHeading.append(newRecipeTitle);
       newRecipeCardHeading.append(newRecipeAuthor);
-      newRecipeCardBody.append(newRecipeBody);
+      newRecipeCardBody.append(newRecipeImage);
+      newRecipeCardBody.append(spaceBreak3);
+      newRecipeCardBody.append(newRecipeIngredients);
+      newRecipeCardBody.append(spaceBreak);
+      newRecipeCardBody.append(newRecipePreparation);
+      newRecipeCardBody.append(spaceBreak2);
+      newRecipeCardBody.append(newRecipeServings);
       newRecipeCard.append(newRecipeCardHeading);
       newRecipeCard.append(newRecipeCardBody);
       newRecipeCard.data("recipe", recipe);

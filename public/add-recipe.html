@@ -12,24 +12,32 @@
 </head>
 
 <body>
-	<div class="addr">
-		<div class="imageContainer container">
-			<div class="row mx-auto">
-	
-
-				<div class="col-sm-6">
-					<a class="btn btn-light" href="/all-recipes">Go to Recipes</a>
-				</div>
-				<div class="col-sm-6">
-					<a class="btn btn-light" href="/author-manager">Manage Authors</a>
-				</div>
-		
-
-
-			</div>
-			<div class="row">
-				<div class="col-md-6 offset-md-3">
-					<form id="add-recipe">
+	<div class="container hidden">
+		<div class="row top-30">
+      <div class="col-md-1.5 col-sm-1.5">
+        <a class="btn btn-light" href="/all-recipes">Go to Recipes</a>
+      </div>
+      <div class="col-md-1.5 col-sm-1.5">
+        <a class="btn btn-light" href="/author-manager">Manage Authors</a>
+      </div>
+    </div>
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<form id="add-recipe">
+					<div class="form-group">
+						<label for="title">Title:</label>
+						<input placeholder="Recipe Title" type="text" class="form-control" id="title">
+						<br />
+						<label for="ingredients">Ingredients:</label>
+						<textarea placeholder="Recipe Ingredients" class="form-control" rows="10" id="ingredients"></textarea>
+						<br />
+						<label for="preparation">Preparation:</label>
+						<textarea placeholder="Recipe Preparation" class="form-control" rows="10" id="preparation"></textarea>
+						<label for="image_link">Image Link:</label>
+						<input placeholder="Recipe Image Link" type="url" class="form-control" id="image_link">
+						<br />
+						<label for="title">Servings:</label>
+						<input placeholder="Recipe Servings" type="number" class="form-control" id="servings">
 						<div class="form-group">
 							<label for="title">Title:</label>
 							<input placeholder="Recipe Title" type="text" class="form-control" id="title">
