@@ -6,7 +6,7 @@
 	<title>Add Recipe</title>
 	<!-- Latest compiled and minified CSS & JS -->
 	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+	<link rel="stylesheet" href="styles/styles.css" media="screen" title="no title">
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
@@ -39,14 +39,29 @@
 						<label for="title">Servings:</label>
 						<input placeholder="Recipe Servings" type="number" class="form-control" id="servings">
 						<div class="form-group">
-							<label for="category">Select Author:</label>
-							<select class="custom-select" id="author">
-  						</select>
+							<label for="title">Title:</label>
+							<input placeholder="Recipe Title" type="text" class="form-control" id="title">
+							<br />
+							<label for="ingredients">Ingredients:</label>
+							<textarea placeholder="Recipe Ingredients" class="form-control" rows="10" id="ingredients"></textarea>
+							<br />
+							<label for="preparation">Preparation:</label>
+							<textarea placeholder="Recipe Preparation" class="form-control" rows="10" id="preparation"></textarea>
+							<label for="image_link">Image Link:</label>
+							<input placeholder="Recipe Image Link" type="url" class="form-control" id="image_link">
+							<br />
+							<label for="title">Servings:</label>
+							<input placeholder="Recipe Servings" type="number" class="form-control" id="servings">
+							<div class="form-group">
+								<label for="category">Select Author:</label>
+								<select class="custom-select" id="author">
+								</select>
+							</div>
+							<br />
+							<button type="submit" class="btn btn-success submit">Submit</button>
 						</div>
-						<br />
-						<button type="submit" class="btn btn-success submit">Submit</button>
-					</div>
-				</form>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
