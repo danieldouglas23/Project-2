@@ -236,6 +236,8 @@ h5 {
 
 .containerhidden {
   background-color: black;
+  background: url(../images/headertacos.jpg) no-repeat center center fixed; 
+
 }
 
 .addr {
@@ -246,4 +248,10 @@ h5 {
     -o-background-size: cover;
     background-size: cover;
     
+}
+
+.author-container-2 {
+  background: url(../images/headertacos.jpg) no-repeat center center fixed; 
+  height: 800px;
+
 }
