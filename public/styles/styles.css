@@ -225,6 +225,7 @@ text-align: center;
 
 }
 
+
 label {
   color: white;
 
@@ -257,5 +258,9 @@ h5 {
 .author-container-2 {
   background: url(../images/headertacos.jpg) no-repeat center center fixed; 
   height: 1200px;
+
+}
+#notamem {
+  padding: 8px 10px;
 
 }
