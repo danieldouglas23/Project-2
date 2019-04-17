@@ -1,5 +1,8 @@
 body {
     width: 100%;
+    background-color: black;
+
+    
 }
 .html {
     scroll-behavior: smooth;
@@ -223,10 +226,20 @@ label {
   background-color: black
 }
 
-.containermyColsrow {
-
-}
-
 h5 {
   color: white;
+}
+
+.containerhidden {
+  background-color: black;
+}
+
+.addr {
+    width: 100%;
+    background: url(../images/headertacos.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
 }
