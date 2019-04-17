@@ -19,8 +19,13 @@
   "homepage": "https://github.com/danieldouglas23/Project-2#readme",
   "dependencies": {
     "cjs": "0.0.11",
+    "dotenv": "^7.0.0",
     "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "mysql": "^2.16.0",
     "mysql2": "^1.6.5",
+    "path": "^0.12.7",
     "sequelize": "^5.6.0"
-  }
+  },
+  "devDependencies": {}
 }
