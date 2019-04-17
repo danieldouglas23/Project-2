@@ -243,3 +243,9 @@ h5 {
     background-size: cover;
     
 }
+
+.author-container-2 {
+  background: url(../images/headertacos.jpg) no-repeat center center fixed; 
+  height: 800px;
+
+}
